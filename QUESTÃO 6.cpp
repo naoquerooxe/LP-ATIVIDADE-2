@@ -11,11 +11,11 @@ int main()
 
     printf(" | CODIGO |  PRODUTO   |\n");
     printf(" |   1    |  Camiseta  |\n");
-    printf(" |   2    |  Calça     |\n");
+    printf(" |   2    |  CalÃ§a     |\n");
     printf(" |   3    |  Sapato    |\n");
     printf("--------------*------*-- \n");
 
-    printf("Digite o cÓdigo do idioma escolhido:");
+    printf("Digite o cÃ“digo do idioma escolhido:");
     scanf("%i", &opcao);
     
     system("cls");
@@ -23,24 +23,24 @@ int main()
     switch (opcao)
     {
     case 1:
-    	printf("CÓDIGO: 1 \n");
+    	printf("CÃ“DIGO: 1 \n");
     	printf("Produto: Camiseta \n");
-    	printf("Preço: R$ 20,00\n");
+    	printf("PreÃ§o: R$ 20,00\n");
     	break;
     case 2:
-    	printf("CÓDIGO: 2 \n");
-    	printf("Produto: Calça \n");
-    	printf("Preço: R$ 40,00 \n");
+    	printf("CÃ“DIGO: 2 \n");
+    	printf("Produto: CalÃ§a \n");
+    	printf("PreÃ§o: R$ 40,00 \n");
     
     	break;
     case 3:
-    	printf("CÓDIGO: 3 \n");
+    	printf("CÃ“DIGO: 3 \n");
     	printf("Produto: Sapato \n");
-    	printf("Preço: R$ 60.00 \n");
+    	printf("PreÃ§o: R$ 60.00 \n");
     
     	break;
     default:
-    printf("Opção inválida! \n");
+    printf("OpÃ§Ã£o invÃ¡lida! \n");
     break;
 }
     	
