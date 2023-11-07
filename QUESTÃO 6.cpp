@@ -9,16 +9,16 @@ int main()
 
     int opcao;
 
-    printf("   _____              \n");
-    printf("-> | 1 | NOVO JOGO    \n");
-    printf("   _____              \n");
-	printf("-> | 2 | CARREGAR JOGO\n");
-    printf("   _____              \n");
-	printf("-> | 3 | CONFIGURAÇÃOES\n");
+    printf("   _____               \n");
+    printf("-> | 1 | NOVO JOGO     \n");
+    printf("   _____               \n");
+    printf("-> | 2 | CARREGAR JOGO \n");
+    printf("   _____               \n");
+    printf("-> | 3 | CONFIGURAÃ‡Ã•ES \n");
 
 
     printf("\n");
-	printf("Digite o código da sua opção:");
+    printf("Digite o cÃ³digo da sua opÃ§Ã£o:");
     scanf("%i", &opcao);
 
     switch (opcao)
@@ -30,10 +30,10 @@ int main()
 	printf("Carregando jogo... \n");
 	break;
 	case 3:
-	printf("Entrando nas configurações... \n");
+	printf("Entrando nas configuraÃ§Ãµes... \n");
 	break;
 	default:
-		printf("Opção inválida. Tente Novamente. \n");
+	printf("OpÃ§Ã£o invÃ¡lida. Tente Novamente. \n");
 		
 	break;
 }
